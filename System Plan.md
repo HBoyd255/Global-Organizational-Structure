@@ -44,6 +44,10 @@ longer has a real purpose, but just still exists for legacy reasons.
    I want to come back to, for for specific filters, basically anything orange
    should be there to grab my attention.
 
+8. For now, projects that could be placed unde other top level catagories,
+   will remain under the projects catagory. For example, hboyd.co.uk is for
+   profe use, but will remain under the projects top level category.
+
 ### Top level categories
 
 - **Archives**  
