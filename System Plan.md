@@ -9,7 +9,7 @@ One of the ones reasons that I am splitting up these roles into catagories is so
 that I can cut down on the amount of email addresses I have. I want to just
 have one email address, who's contents is split up into catagories via labels.
 
-So for empale hboydemail@gmail.com is currently for personal items,
+So for example hboydemail@gmail.com is currently for personal items,
 hboyd255@gmail.com is currently for professional items. hboydtff@gmail.com and
 harryb@tffsolutions.co.uk are used for business purposes,
 hb1518@york.ac.uk is used for uni items, and harryapplegreen@gmail.com no
@@ -44,9 +44,14 @@ longer has a real purpose, but just still exists for legacy reasons.
    I want to come back to, for for specific filters, basically anything orange
    should be there to grab my attention.
 
-8. For now, projects that could be placed unde other top level catagories,
-   will remain under the projects catagory. For example, hboyd.co.uk is for
-   profe use, but will remain under the projects top level category.
+8. For now, projects that could be placed under other top level catagories,
+   will remain under the projects category. For example, hboyd.co.uk is for
+   professional use, but will remain under the projects top level category.
+
+9. When organizing items, they should be categorized based on their overall
+   category rather than what needs to be done with them. For example, a driving
+   test booking should be grouped with other driving test-related items, not
+   with other booking-related items.
 
 ### Top level categories
 
@@ -103,11 +108,58 @@ Personal/
 - <span style="color:red">Medical</span>
 - <span style="color:green">Finance</span> TLI
 - <span style="color:white">Newsletters</span> TLD
-- <span style="color:">Accounts</span> TLD
-- <span style="color:hotpink">Family and Friends</span> TLD
-- <span style="color:">Communication</span> TLI
+- <span style="color:lightblue">Accounts</span> TLD
+- <span style="color:hotpink">Family and Friends</span>
+- <span style="color:">Communication</span> TLD
+- <span style="color:lightPink">Volunteering and Charity</span>
 
-#### GMAIl Scripts Features
+Professional/
+
+- <span style="color:">Applications</span>
+- <span style="color:">Current Jobs</span>
+- <span style="color:">Past Jobs</span>
+- <span style="color:">CV</span>
+
+Professional/
+
+- <span style="color:">Applications</span>
+- <span style="color:">Current Jobs</span>
+- <span style="color:">Past Jobs</span>
+- <span style="color:">CV</span>
+
+### Ordering
+
+Although most directories and environments automatically sort directories and
+items alphabetically, this should be overridden to apply a better order.
+This can be done by prefixing the desired number onto a name separated by an
+underscore, as seen below. The decided upon order for my top level categories
+can be seen below.
+
+00_Inbox(When required)
+01_Personal  
+02_Professional  
+03_Education  
+04_Projects  
+05_Digital  
+06_Meta  
+07_Backups  
+08_Archives  
+09_Business
+
+Inbox should be placed at the top, when applicable, as it contains items that
+need dealing with.
+Personal should be at the top as it is the broadest, and most frequently used
+category.
+Business should be at the bottom to signify its separation. This does not,
+however, indicate that it is any less important. There is no order of
+importance built into this structure, as this can heavily depend on the context
+of each items, some items in Education will be more important than some items in
+Professional and vise versa. If a most important category had to be assigned,
+it would be the personal category, as this holds medical and family items.
+
+Second and deeper categories can stay in alphabetically order.
+
+#### GMAIL Scripts Features
 
 - Check that all items exist at the end of a category tree.
 - check every item has exactly one label, not 0, not 2+.
